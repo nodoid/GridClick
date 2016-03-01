@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\paul\dropbox\mvvm book\code\gridclick\gridclick\gridclick.winphone\obj\debug\intermediatexaml\gridclick.winphone.exe" HashGuid="32be70a8-e4e7-dfaf-6088-b44b58abfed6" />
+    <ReferenceAssembly PathName="c:\users\paul\dropbox\mvvm book\code\gridclick\gridclick\gridclick\bin\debug\gridclick.dll" HashGuid="c9884355-51ba-6a03-0ca8-fb62677a704e" />
+    <ReferenceAssembly PathName="c:\users\paul\dropbox\mvvm book\code\gridclick\packages\xamarin.forms.2.0.1.6495\lib\wpa81\xamarin.forms.core.dll" HashGuid="81f082c0-b7e7-95b3-a9ed-2e2d9b51621f" />
+    <ReferenceAssembly PathName="c:\users\paul\dropbox\mvvm book\code\gridclick\packages\xamarin.forms.2.0.1.6495\lib\wpa81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
+    <ReferenceAssembly PathName="c:\users\paul\dropbox\mvvm book\code\gridclick\packages\xamarin.forms.2.0.1.6495\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="90857546-45ca-99c6-9f56-7b4999edda75" />
+    <ReferenceAssembly PathName="c:\users\paul\dropbox\mvvm book\code\gridclick\packages\xamarin.forms.2.0.1.6495\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="a9e183e0-7a4a-b12c-d004-86b46135dbe4" />
+    <ReferenceAssembly PathName="c:\users\paul\dropbox\mvvm book\code\gridclick\packages\xamarin.forms.2.0.1.6495\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="3953804c-3f4d-f50e-72fc-d5c6cd693e13" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

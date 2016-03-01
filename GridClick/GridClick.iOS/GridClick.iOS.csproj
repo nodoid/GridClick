@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD97D5A4-B86D-4D3E-B47F-752B8FDE81CF}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GridClick.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>GridClickiOS</AssemblyName>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <BuildIpa>True</BuildIpa>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork@2x" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\Default-Portrait.png" />
+    <BundleResource Include="Resources\Default-Portrait%402x.png" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+    <BundleResource Include="Resources\Icon-60%403x.png" />
+    <BundleResource Include="Resources\Icon-76.png" />
+    <BundleResource Include="Resources\Icon-76%402x.png" />
+    <BundleResource Include="Resources\Icon-Small-40.png" />
+    <BundleResource Include="Resources\Icon-Small-40%402x.png" />
+    <BundleResource Include="Resources\Icon-Small-40%403x.png" />
+    <BundleResource Include="Resources\Icon-Small.png" />
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+    <BundleResource Include="Resources\Icon-Small%403x.png" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.2.0.1.6505\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.2.0.1.6505\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.iOS, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.2.0.1.6505\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.2.0.1.6505\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GridClick\GridClick.csproj">
+      <Project>{33A197B0-6CC5-4DE6-95AD-F3FD8C823B4F}</Project>
+      <Name>GridClick</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\generic_nokia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\2_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\2_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\2_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\2_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\3_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\3_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\3_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\3_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\4_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\4_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\4_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\4_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\5_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\5_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\5_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\5_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\6_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\6_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\6_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\6_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\7_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\7_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\7_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\7_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\8_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\8_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\8_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\8_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\9_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\9_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\9_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\9_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\10_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\10_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\10_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\10_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ace_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ace_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ace_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ace_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jack_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jack_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jack_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jack_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\king_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\king_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\king_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\king_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\queen_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\queen_of_diamonds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\queen_of_hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\queen_of_spades.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\..\packages\Xamarin.Forms.2.0.1.6505\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.0.1.6505\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.2.0.1.6505\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.2.0.1.6505\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+  </Target>
+</Project>

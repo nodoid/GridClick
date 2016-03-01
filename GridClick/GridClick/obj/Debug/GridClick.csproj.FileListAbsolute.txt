@@ -1,0 +1,10 @@
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\bin\Debug\GridClick.dll
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\bin\Debug\GridClick.pdb
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\obj\Debug\GridClick.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\obj\Debug\GridClick.dll
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\obj\Debug\GridClick.pdb

@@ -1,0 +1,2 @@
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick.WinPhone\GridClick.WinPhone.csproj;neutral
+C:\Users\Paul\Dropbox\mvvm book\code\GridClick\GridClick\GridClick\GridClick.csproj;neutral
